@@ -1,14 +1,43 @@
+## 1. Introduction
+This program helps you calculate your final grade for a class. You enter your grading system and your assignment scores, and the program shows your final percentage and letter grade.
 
-1. Introduction — what the program does, in plain English.
+## 2. Getting Started
+First, compile the program using the instructions in the README file. Then run it in the terminal or command prompt to start entering your information.
 
-2. Getting Started — how to launch the program (one or two sentences referencing the README's build instructions).
+## 3. Step-by-Step Walkthrough
+1. Enter the total number of points possible for the course (this should be a positive whole number).
+2. Enter the minimum points required for an A, B, C, and D.
+3. Start entering your assignment names and scores. Scores can be numbers like 85 or 92.5.
+4. When you are done entering assignments, type a negative number to stop.
+5. The program will display your results.
 
-3. Step-by-Step Walkthrough — number every prompt the user will see, in order, with: what the prompt is asking for, the data type / format expected (e.g., "a whole number", "a decimal number such as 87.5"), and acceptable input ranges or constraints (e.g., "Total Points Possible must be a positive integer").
+## 4. Sentinel Value Explanation
+To stop entering assignments, type a negative number. This tells the program that you are finished and it will calculate your results.
 
-4. Sentinel Value Explanation — explain that entering a negative number for an assignment score ends input and triggers the calculation.
+## 5. Sample Session
 
-5. Sample Session — paste a complete example run (input + output) so the user can see what success looks like.
+```
+Enter total points possible: 100
+Enter points for A: 90
+Enter points for B: 80
+Enter points for C: 70
+Enter points for D: 60
 
-6. Understanding Your Results — explain what each line of the final output means (Total Points Earned, Total Percentage, Final Letter Grade).
+Enter assignment name: Homework 1
+Enter score: 85
 
-7. Troubleshooting — at least 2 common mistakes (e.g., entering letters where a number is expected, forgetting that the sentinel is negative).
+Enter assignment name: Exam 1
+Enter score: 92
+
+Enter score: -1
+
+Final Percentage: 88
+Final Grade: B
+```
+
+## 6. Understanding Your Results
+The program shows your total percentage and your final letter grade. The percentage is based on the total points you earned compared to the total points possible.
+
+## 7. Troubleshooting
+- Make sure you enter numbers when asked. Typing letters will cause errors.
+- Don’t forget that a negative number ends the input.
