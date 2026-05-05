@@ -4,10 +4,10 @@ A C++ console application that calculates a student's final letter grade
 from a user-defined grading scheme and a set of assignment scores.
 
 ## Author
-[Your Name] - COSC 1436, [Semester Year]
+Jason Barraza - COSC 1436, Spring 2026  
 
 ## Description
-[2-3 sentences describing what the program does and who it's for.]
+This program calculates a student’s final course grade using a custom grading scheme and assignment scores. The user inputs total points, grade cutoffs, and assignment data. The program then computes the final percentage and displays the letter grade.
 
 ## Features
 - Time-of-day greeting
@@ -37,4 +37,4 @@ Using g++ (Linux / macOS / WSL / MinGW):
 - C++17 or newer compiler (g++, clang, or MSVC)
 
 ## Course Concepts Demonstrated
-Chapters 1-12 of [Textbook Title].
+Chapters 1-12 of Fundamentals of C++ Programming by Richard L. Halterman.
